@@ -3,6 +3,9 @@ import torch.nn as nn
 from torch.nn import functional as F
 
 class Head(nn.Module):
+    """
+    Description: This class defines the head of the multi-head attention mechanism
+    """
     def __init__(self,n_embds,head_size,block_size,dropout):
         super().__init__()
         self.head_size = head_size
@@ -27,6 +30,9 @@ class Head(nn.Module):
         return out
 
 class MultiHead(nn.Module):
+    """
+    Description: This class defines the multi-head attention mechanism
+    """
     def __init__(self,n_embds,head_size,block_size,n_heads,dropout):
         super().__init__()
         self.heads = nn.ModuleList([Head(n_embds,head_size,block_size,dropout) for _ in range(n_heads)])
