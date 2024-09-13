@@ -64,5 +64,6 @@ The model is configured with the following hyperparameters:
 
   **Text Generation**: The model generates text based on the trained data. Adjust the max_new_tokens parameter in the generate function to control the length of the generated text.
 
-Acknowledgements
+## Acknowledgements
 Inspired by the GPT architecture and transformer models.
+This project was inspired by the [nanoGPT](https://github.com/karpathy/nanoGPT) implementation by [Andrej Karpathy](https://github.com/karpathy). His work provided valuable insights and guidance for building this GPT-like model.
