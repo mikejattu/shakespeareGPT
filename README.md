@@ -39,14 +39,14 @@ This will:
 
 The model is configured with the following hyperparameters:
 
-**Batch Size**: 64
-**Block Size**: 256
-**Iterations**: 5000
-**Learning Rate**: 3e-4
-**Embedding Size**: 384
-**Number of Heads**: 6
-**Number of Layers**: 6
-**Dropout Rate**: 0.2
+#### **Batch Size**: 64
+#### **Block Size**: 256
+#### **Iterations**: 5000
+#### **Learning Rate**: 3e-4
+#### **Embedding Size**: 384
+#### **Number of Heads**: 6
+#### **Number of Layers**: 6
+#### **Dropout Rate**: 0.2
 
 ## How It Works
 ### Data Processing
